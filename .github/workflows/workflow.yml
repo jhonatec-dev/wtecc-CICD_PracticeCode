@@ -1,11 +1,14 @@
+# Workflow name
 name: Testing GitHub Actions
 
+# Triggers
 on:
   push:
     branches: [ "main"]
   pull_request:
     branches: [ "main"]
 
+# Jobs
 jobs:
   build:
     runs-on: ubuntu-latest
